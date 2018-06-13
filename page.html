@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Griso_Travels.com</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style 3.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px)" href="smartphone.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+   <a href="" class="header_logo">Griso Travels.com</a>
+   <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+   <ul class="header_menu animate">
+     <li class="header_menu_item"><a href="index.html">Home</a></li>
+     <li class="header_menu_item"><a href="single.html">Africa</a></li>
+     <li class="header_menu_item"><a href="page.html">Extreme North</a></li>
+     <li class="header_menu_item"><a href="contacts.html">Contact us</a></li>
+   </ul>
+</header>
+
+<section class="cover cover--page">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>Extremly cold and beautiful</h1>
+			<h2>Visit some of the most fascinating places on the earth</h2>
+		</div>
+	</div>
+</section>
+
+<article class="single">
+	<div class="single_copy">
+   <p class="single_copy__meta"> 7.6.2018, in <a href="">News</a> by <a href=""> Alessio Grisanti</a> </p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat, urna vitae tristique euismod, massa mauris bibendum turpis, non vehicula enim enim sit amet ligula.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat, urna vitae tristique euismod, massa mauris bibendum turpis, non vehicula enim enim sit amet ligula.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat, urna vitae tristique euismod, massa mauris bibendum turpis, non vehicula enim enim sit amet ligula.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat, urna vitae tristique euismod, massa mauris bibendum turpis, non vehicula enim enim sit amet ligula.</p>
+ </div>
+</article>
+
+
+<section class="cards clearfix">
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?mountains" alt="Canada">
+		<div class="card__copy">
+			<h3>Canada</h3>
+			<p>Take an escorted tour through Canada. With all of your travel and accommodation arrangements taken care of before you depart, you can ensure that the only thing you have to worry about is not missing out on any of the spectacular scenery. </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?northernlights" alt="Northern Lights">
+		<div class="card__copy">
+			<h3>Alaska</h3>
+			<p>Alaska is different from every other destination in the world. Every day offers an unforgettable memory: a mother moose and calf, glaciers and mountains and unique Native cultures, our Russian legacy and Gold Rush days. </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?Norway" alt="Norway">
+		<div class="card__copy">
+			<h3>Norway</h3>
+			<p>Prepare for a trip in a country with a lot of space and beautiful things to see and to do. Enjoy Norway’s regions, each with its own distinct flavour. Show respect for the environment and keep safety in mind to enjoy the right to roam. </p>
+		</div>
+  </div>
+	</section>
+
+<article class="single">
+</article>
+
+
+<footer class="footer">
+	<p>Copyright - 2018 Griso_WebDesign.com</p>
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+</body>
+</html>
