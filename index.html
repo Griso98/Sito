@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Griso_Travels.com</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px)" href="smartphone.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+   <a href="index.html" class="header_logo">Griso Travels.com</a>
+   <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+   <ul class="header_menu animate">
+     <li class="header_menu_item"><a href="index.html">Home</a></li>
+     <li class="header_menu_item"><a href="single.html">Africa</a></li>
+     <li class="header_menu_item"><a href="page.html">Extreme North</a></li>
+     <li class="header_menu_item"><a href="contacts.html">Contact us</a></li>
+		 <li class="header_menu_item"><a href="about me.html">About me</a></li>
+   </ul>
+</header>
+
+<section class="cover">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>Discover the incredible world around you</h1>
+			<h2>It has never been so simple</h2>
+			<a href="contacts.html" class="button">Preorder now</a>
+		</div>
+	</div>
+</section>
+
+<section class="cards clearfix">
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?mountain" alt="Mountain">
+		<div class="card__copy">
+			<h3>Beautiful Mountains</h3>
+			<p>There's something quite humbling about mountains. Even though man has conquered most of the world's summits, they remind us that we are only a tiny part of the landscape </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?sunset" alt="Sunset">
+		<div class="card__copy">
+			<h3>Breathtaking Sunsets</h3>
+			<p>There's nothing like a beautiful sunset to end an incredible day. With our agency experiences like this are the order of the day. Enjoy us and you'll never regret. </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?food" alt="Food">
+		<div class="card__copy">
+			<h3>Great Food</h3>
+			<p>You have the opportunity to experience all of the unique tastes, textures, and scents the world has to offer. Discover thousands of incredible dishes. </p>
+		</div>
+  </div>
+	</section>
+
+
+	<section class="banner clearfix">
+		<div class="banner_image"></div>
+	  <div class="banner_copy">
+		 <div class="banner_copy_text">
+			 <h3>The best way to travel</h3>
+			 <h4>Is with our agency</h4>
+			 <p>What are you waiting for? With Griso Travels.com you can live more than just a holiday. You can live an unforgettable experience at the right price. Choose the best offer for you. just a few clicks are enough, and you will already be traveling.</p>
+		</div>
+	</div>
+	</section>
+
+
+<footer class="footer">
+	<p>Copyright - 2018 Griso_WebDesign.com</p>
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+</body>
+</html>

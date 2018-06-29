@@ -1,0 +1,102 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Griso_Travels.com</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px)" href="smartphone.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+   <a href="index.html" class="header_logo">Griso Travels.com</a>
+   <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+   <ul class="header_menu animate">
+     <li class="header_menu_item"><a href="index.html">Home</a></li>
+     <li class="header_menu_item"><a href="single.html">Africa</a></li>
+     <li class="header_menu_item"><a href="page.html">Extreme North</a></li>
+     <li class="header_menu_item"><a href="contacts.html">Contact us</a></li>
+		 <li class="header_menu_item"><a href="about me.html">About me</a></li>
+   </ul>
+</header>
+
+<section class="cover cover--single">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>Explore Africa as never before</h1>
+		</div>
+	</div>
+</section>
+
+<article class="single">
+	<div class="single_copy">
+	<h2>You will not be the same again</h2>
+	 
+	 <p>It was Richard Mullin who said ‘The only man I envy is the man who has not yet been to Africa - for he has so much to look forward to.’ An accurate observation as wherever you
+		  step on this bright continent you’re met by magnificent landscapes, wilderness, precious wildlife, diverse culture, rich tradition and the history of the nations who play host to
+		  visitors wanting to get dust under their feet and be inspired by the unique experiences on offer. Africa is unlike any other part of the world, and everyone should visit it at least
+		  once in his or her lifetime.</p>
+ </div>
+</article>
+
+
+<section class="cards clearfix">
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?safari" alt="Safari">
+		<div class="card__copy">
+			<h3>Incredible Animals</h3>
+			<p>What can be more exhilarating than tracking a lion as it stalks its prey and then finally pounces for the kill? On a Big Five Safari this can be an everyday reality. What are you waiting for? </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?africa" alt="Africa">
+		<div class="card__copy">
+			<h3>Fascinating Traditions</h3>
+			<p>African Tradition is expressed through many different art forms, such as music, dance, art, sculpture and beadwork. Enjoy the incredibly diversified multicultural heritage of this places. </p>
+		</div>
+  </div>
+	<div class="card">
+		<img class="card__image"src="https://source.unsplash.com/400x260/?sahara" alt="Exotic">
+		<div class="card__copy">
+			<h3>Awesome Landscapes</h3>
+			<p>Encompassing myriad landscapes, which range from the baking volcanic depths of the Rift Valley to the ice-capped summits of Kilimanjaro, Africa has few peers when it comes to natural beauty. </p>
+		</div>
+  </div>
+	</section>
+
+<article class="single">
+</article>
+
+
+<footer class="footer">
+	<p>Copyright - 2018 Griso_WebDesign.com</p>
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+</body>
+</html>
